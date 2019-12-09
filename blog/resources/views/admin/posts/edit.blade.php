@@ -12,6 +12,7 @@
 
             <label>Descrição</label>
             <textarea name='descricao'>{{$post->descricao}}</textarea>
+            
             <input type="submit" value="Cadastrar">
         </form>
 @endsection   

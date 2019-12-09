@@ -23,7 +23,7 @@
                     <td>{{$video->created_at->format('d/m/Y H:i')}}</td>
                     <td>{{$video->link}}</td>
                     <td>
-                        <a href="{{url('admin/videos/'.$video->id.'/edit')}}"> Editari</a>
+                        <a href="{{url('admin/videos/'.$video->id.'/edit')}}"> Editar</a>
                         <form method="post" action="{{url('admin/videos/'.$video->id)}}">
                             @csrf
                             <input type="hidden" name="_method" value="DELETE"> <button type='submit'>EXCLUIR</button>

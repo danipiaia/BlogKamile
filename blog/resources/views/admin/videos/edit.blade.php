@@ -14,7 +14,7 @@
             <textarea name='descricao'>{{$video->descricao}}</textarea>
             
             <label>Link</label>
-            <input name='link'>{{$video->link}}</input>
+            <input name='link'>{{$video->link}}
             <input type="submit" value="Adicionar">
         </form>
 @endsection   
